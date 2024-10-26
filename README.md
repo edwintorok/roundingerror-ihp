@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Rounding error - a tinytapeout competition demo
+# Rounding error - a tinytapeout competition demo (IHP version)
 
 - [Read the documentation for project](docs/info.md)
 
