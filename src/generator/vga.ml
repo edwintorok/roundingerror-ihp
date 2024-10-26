@@ -24,7 +24,7 @@ module Controller = struct
   let reg I.{clk; rst_n} =
     (* ASIC (not FPGA) optimized, use asynchronous clear, instead of synchronous reset *)
     Reg_spec.(
-      create ~clock:clk () |> override ~clear:rst_n ~clear_level:Level.Low )
+      create ~clock:clk () |> override ~reset:rst_n ~reset_edge:Edge.Falling )
 
   let create ~modeline _scope input =
     let open Modeline in
